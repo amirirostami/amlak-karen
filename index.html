@@ -30,11 +30,11 @@
       body {
         margin: 0;
         font-family: "Vazirmatn", sans-serif;
-        background-image: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=100");
+        background-image: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=40");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-attachment: fixed; /* تصویر در پس‌زمینه ثابت بمونه */
+        background-attachment: fixed;
         color: #e5d6b3;
         display: flex;
         justify-content: center;
@@ -42,6 +42,12 @@
         padding: 2rem;
         min-height: 100vh;
         box-sizing: border-box;
+      }
+
+      @media (min-width: 769px) {
+        body {
+          background-image: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=80");
+        }
       }
 
       .card {
@@ -151,19 +157,18 @@
         <div class="number">09129429567</div>
       </div>
 
-      <p class="description">
-        مشاوره املاک کارن با بیش از ۱۰ سال تجربه در زمینه خرید، فروش و اجاره
-        انواع ملک در قزوین - مهرگان .. بهترین پیشنهادها و مشاوره تخصصی را از ما
-        بخواهید.
-      </p>
-      <br />
-
       <a class="btn" href="https://wa.me/989129429567" target="_blank"
         >📩 پیام در واتساپ</a
       >
       <a class="btn" href="https://balad.ir/p/2K32gGpSpvTXa5"
         >📍 مشاهده در نقشه</a
       >
+
+      <p class="description">
+        مشاوره املاک کارن با بیش از ۱۰ سال تجربه در زمینه خرید، فروش و اجاره
+        انواع ملک در قزوین - مهرگان .. بهترین پیشنهادها و مشاوره تخصصی را از ما
+        بخواهید.
+      </p>
     </div>
   </body>
 </html>
